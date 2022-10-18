@@ -1,0 +1,65 @@
+/* For all mobile and tablet */
+
+@media only screen and (max-width: 1023px) {
+  .hide-on-mobile-tablet {
+    display: none !important;
+  }
+}
+
+/* For mobile only */
+
+@media only screen and (max-width: 739px) {
+  :root {
+    --header-mobile-height: 19.8rem;
+    --header-navbar-height: 8rem;
+    --header-contact-mobile: calc(
+      var(--header-mobile-height) - var(--header-navbar-height)
+    );
+  }
+
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  /* Header */
+  .header {
+    max-height: var(--header-mobile-height) !important;
+  }
+
+  .header__contact {
+    height: var(--header-contact-mobile);
+  }
+
+  /* section */
+  .section-content-fw .section-heading p.title-heading,
+  .section-heading p.title-heading {
+    --font-height: 1.6rem;
+  }
+
+  .section-heading p.title-des {
+    --font-height: 1.6rem;
+  }
+
+  .section-content-fw .section-heading h2,
+  .section-heading h2 {
+    --font-height: 2.8rem;
+    font-weight: 600;
+  }
+
+  /* button */
+
+  .button {
+    font-size: 16px;
+  }
+
+  .button.button-submit {
+    width: 148px;
+  }
+}
+
+/* For tablet only */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none !important;
+  }
+}

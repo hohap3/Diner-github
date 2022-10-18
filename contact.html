@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Reset CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <!-- Font Icon -->
+    <link
+      href="//fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+    />
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link file CSS -->
+
+    <link rel="stylesheet" href="./assets/CSS/chung.css" />
+    <link rel="stylesheet" href="./assets/CSS/base.css" />
+    <link rel="stylesheet" href="./assets/CSS/contact.css" />
+    <link rel="stylesheet" href="./assets/CSS/contact_responsive.css" />
+
+    <title>Diner Restaurants</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="container header__content">
+          <div
+            class="header__navbar d-flex align-items-center justify-content-between"
+          >
+            <div class="header__logo">
+              <a href="#" class="text-white">Diner</a>
+            </div>
+            <div class="header__navbar-bar d-flex align-items-center">
+              <div class="header__navbar-search hide-on-mobile">
+                <form action="" class="d-flex align-items-center">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Search here..."
+                  />
+
+                  <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="header__mode-control text-white">
+                <i class="fa-regular fa-moon"></i>
+              </div>
+              <div class="header__navbar-nav text-white">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="header__contact d-flex justify-content-center align-items-center"
+          >
+            <p>
+              <a href="#">Home</a>
+              <i class="fa-solid fa-chevron-right"></i> Contact Us
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Contact -->
+      <section class="section-content contact">
+        <div class="container contact__content">
+          <header class="section-heading contact__header mb-5">
+            <p class="title-heading">Get in touch</p>
+            <h2 class="mb-5">Contact Us</h2>
+            <p class="title-des">
+              Start working with Us that can provide everything you need to
+              generate awareness, drive traffic, connect.
+              <br />
+              We guarantee that you’ll be able to have any issue resolved within
+              24 hours.
+            </p>
+          </header>
+          <div class="contact__body">
+            <form action="#" class="contact__form">
+              <div class="contact__form-input mb-3">
+                <div class="row gx-4 gy-5">
+                  <div class="contact__col col-lg-4 col-md-4 col-sm-12">
+                    <input type="text" name="" id="" placeholder="Name" />
+                  </div>
+
+                  <div class="contact__col col-lg-4 col-md-4 col-sm-12">
+                    <input type="email" name="" id="" placeholder="Email" />
+                  </div>
+
+                  <div class="contact__col col-lg-4 col-md-4 col-sm-12">
+                    <input type="text" name="" id="" placeholder="Subject" />
+                  </div>
+
+                  <div class="contact__col col-lg-12 col-md-12 col-sm-12">
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                      placeholder="Message"
+                      class="pt-3"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact__submit text-end">
+                <button
+                  type="submit"
+                  class="button button-primary button-submit"
+                >
+                  Send message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Address -->
+      <section class="section-content-fw address">
+        <div class="container address__content">
+          <div class="row g-5">
+            <div class="address__left col-lg-4 col-md-12 col-sm-12">
+              <header class="section-heading address__left-header mb-5">
+                <p class="title-heading">Find Us</p>
+                <h2>Additional Info</h2>
+              </header>
+              <ul class="address__list">
+                <li class="d-flex">
+                  <div class="address__list-left">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="address__list-right">
+                    <h4>Phone number</h4>
+                    <a href="tel:+(21) 255 088 4943">+(21) 255 088 4943</a>
+                  </div>
+                </li>
+
+                <li class="d-flex">
+                  <div class="address__list-left">
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                  <div class="address__list-right">
+                    <h4>Send Email</h4>
+                    <a href="mailto:diner@mail.com">diner@mail.com</a>
+                  </div>
+                </li>
+
+                <li class="d-flex">
+                  <div class="address__list-left">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="address__list-right">
+                    <h4>Office Address</h4>
+                    <p>
+                      Address here, 434 Food Honey street, London, UK - 62617.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="address__right col-lg-8 col-md-12 col-sm-12">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.47340035567!2d-0.24168128563888838!3d51.528558241554826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2s!4v1666061857849!5m2!1sen!2s"
+                width="100%"
+                height="320"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer pt-5">
+        <div class="container footer__content">
+          <div class="footer__top py-5">
+            <div class="row g-5">
+              <div class="footer__col col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="footer__item">
+                  <a href="#" class="text-white">Diner</a>
+
+                  <p class="my-4">
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                    ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor
+                    sit amet Semper at elit.
+                  </p>
+
+                  <ul class="footer__socials d-flex">
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer__col col-lg-2 col-md-6 col-sm-6 col-6">
+                <div class="footer__item">
+                  <h2 class="text-white">Usefull Links</h2>
+
+                  <ul class="footer__list mt-4">
+                    <li>
+                      <a href="#">About us</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Services</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Blog posts</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Careers</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Contact us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer__col col-lg-2 col-md-6 col-sm-6 col-6">
+                <div class="footer__item">
+                  <h2 class="text-white">More Info</h2>
+
+                  <ul class="footer__list mt-4">
+                    <li>
+                      <a href="#">History</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Vision & Values</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Awards</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Media</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Support</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer__col col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="footer__item">
+                  <h2 class="text-white">Subscribe to our Newsletter</h2>
+
+                  <p class="my-4">
+                    Enter your email and receive the latest news, updates and
+                    special offers from us.
+                  </p>
+
+                  <form action="" class="footer__form">
+                    <div class="footer__input-group mb-4">
+                      <input
+                        type="email"
+                        name=""
+                        id=""
+                        placeholder="Your Email Address"
+                      />
+                    </div>
+                    <button class="button button-primary button-subscribe">
+                      Subscribe Now
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom py-4">
+            <div class="row">
+              <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                <div class="footer__bottom-left">
+                  <p>
+                    © 2021 Diner. All rights reserved. Design by
+                    <span>W3Layouts</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="footer__bottom-right">
+                  <ul class="d-flex">
+                    <li><a href="#">Careers</a></li>
+                    <li class="mx-lg-5 mx-md-4 mx-3">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li><a href="#">Contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
