@@ -1,0 +1,74 @@
+/* Global variable */
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-primary: #ff6600;
+}
+
+/* Setting all */
+
+* {
+  outline: none;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.app {
+  overflow: hidden;
+}
+
+/* Setting html */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
+  line-height: 1.6rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Content section */
+.section-content {
+  padding: 10rem 0;
+}
+
+.section-content .section-heading {
+  text-align: center;
+}
+
+.section-heading p.title-heading {
+  --font-height: 2rem;
+  font-size: var(--font-height);
+  line-height: calc(var(--font-height) + 1rem);
+  display: block;
+  letter-spacing: 0.1rem;
+  color: var(--color-primary);
+}
+
+.section-heading p.capitalize {
+  text-transform: capitalize;
+}
+
+.section-heading p.title-des {
+  --font-height: 1.6rem;
+  font-size: var(--font-height);
+  line-height: calc(var(--font-height) + 1rem);
+  font-weight: 300;
+}
+
+.section-heading h2 {
+  --font-height: 3.8rem;
+  font-size: var(--font-height);
+  line-height: calc(var(--font-height) + 1rem);
+  text-transform: capitalize;
+  font-weight: 600;
+}
