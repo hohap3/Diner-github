@@ -1,9 +1,20 @@
 /* Global variable */
 
 :root {
+  /* Color */
   --color-white: #fff;
   --color-black: #000;
   --color-primary: #ff6600;
+  --color-grey: #f7f7f7;
+  --color-btn-hover: #ff8533;
+  --color-font: #161c2db3;
+
+  /* Height */
+  --header-height: 35rem;
+  --header-navbar-height: 10.8rem;
+  --header-contact-height: calc(
+    var(--header-height) - var(--header-navbar-height)
+  );
 }
 
 /* Setting all */
@@ -52,6 +63,7 @@ html {
   display: block;
   letter-spacing: 0.1rem;
   color: var(--color-primary);
+  font-family: "Pacifico", cursive;
 }
 
 .section-heading p.capitalize {
@@ -59,16 +71,36 @@ html {
 }
 
 .section-heading p.title-des {
-  --font-height: 1.6rem;
+  --font-height: 1.8rem;
   font-size: var(--font-height);
   line-height: calc(var(--font-height) + 1rem);
   font-weight: 300;
 }
 
+.section-content-fw .section-heading h2,
 .section-heading h2 {
   --font-height: 3.8rem;
   font-size: var(--font-height);
   line-height: calc(var(--font-height) + 1rem);
   text-transform: capitalize;
   font-weight: 600;
+}
+
+/* section-content sm */
+.section-content-fw {
+  padding-bottom: 4.8rem;
+}
+
+.section-content-fw .section-heading {
+  text-align: left;
+}
+
+.section-content-fw .section-heading p.title-heading {
+  --font-height: 2rem;
+  font-size: var(--font-height);
+  line-height: calc(var(--font-height) + 1rem);
+  letter-spacing: 0.1rem;
+  color: var(--color-primary);
+  font-family: "Pacifico", cursive;
+  text-transform: capitalize;
 }
