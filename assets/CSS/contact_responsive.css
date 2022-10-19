@@ -30,22 +30,6 @@
     height: var(--header-contact-mobile);
   }
 
-  /* section */
-  .section-content-fw .section-heading p.title-heading,
-  .section-heading p.title-heading {
-    --font-height: 1.6rem;
-  }
-
-  .section-heading p.title-des {
-    --font-height: 1.6rem;
-  }
-
-  .section-content-fw .section-heading h2,
-  .section-heading h2 {
-    --font-height: 2.8rem;
-    font-weight: 600;
-  }
-
   /* button */
 
   .button {
