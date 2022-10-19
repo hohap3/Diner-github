@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Reset CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <!-- Font Icon -->
+    <link
+      href="//fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+    />
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link file CSS -->
+
+    <link rel="stylesheet" href="./assets/CSS/header.css" />
+    <link rel="stylesheet" href="./assets/CSS/chung.css" />
+    <link rel="stylesheet" href="./assets/CSS/base.css" />
+    <link rel="stylesheet" href="./assets/CSS/blog.css" />
+    <link rel="stylesheet" href="./assets/CSS/blog_responsive.css" />
+
+    <title>Diner blog</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="container header__content">
+          <div
+            class="header__navbar d-flex align-items-center justify-content-between"
+          >
+            <div class="header__logo">
+              <a href="#" class="text-white">Diner</a>
+            </div>
+            <div class="header__navbar-bar d-flex align-items-center">
+              <div class="header__navbar-search hide-on-mobile">
+                <form action="" class="d-flex align-items-center">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Search here..."
+                  />
+
+                  <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="header__mode-control text-white">
+                <i class="fa-regular fa-moon"></i>
+              </div>
+              <div class="header__navbar-nav text-white">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="header__contact d-flex justify-content-center align-items-center"
+          >
+            <p>
+              <a href="#">Home</a>
+              <i class="fa-solid fa-chevron-right"></i> Blog
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Blog -->
+      <section class="section-content blog">
+        <div class="container blog__content">
+          <header class="section-heading blog__header mb-5">
+            <p class="title-heading capitalize">Lasted posts</p>
+            <h2>Blog Posts</h2>
+          </header>
+
+          <div class="blog__body">
+            <div class="row g-5">
+              <div class="blog__col col-lg-8">
+                <div class="row g-5">
+                  <div class="blog__col col-lg-6">
+                    <div class="blog__item">
+                      <a href="#" class="blog__item-link blog__item-link-image">
+                        <img
+                          class="img-fluid"
+                          src="./assets/img/g1.jpg"
+                          alt="g1"
+                        />
+                        <div class="blog__item-img-info">
+                          <p>Reciepe</p>
+                          <p>
+                            <i class="fa-regular fa-clock"></i>
+                            10 Min Cook
+                          </p>
+                        </div>
+                      </a>
+
+                      <div class="blog__item-body py-4">
+                        <a
+                          href="#"
+                          class="blog__item-link blog__item-link-title"
+                        >
+                          The Best Cookie Recipes To Bake This Weekend
+                        </a>
+                        <p class="my-4">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Deserunt, quos. Tenetur, sunt?
+                        </p>
+
+                        <div
+                          class="blog__item-origin d-flex align-items-center justify-content-between"
+                        >
+                          <div
+                            class="blog__item-author d-flex align-items-center"
+                          >
+                            <img src="./assets/img/team3.jpg" alt="" />
+                            <a href="#">Rashed Kabir</a>
+                          </div>
+                          <a href="#">
+                            Read more <i class="fa-solid fa-chevron-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="blog__col col-lg-6">
+                    <div class="blog__item">
+                      <a href="#" class="blog__item-link blog__item-link-image">
+                        <img
+                          class="img-fluid"
+                          src="./assets/img/g2.jpg"
+                          alt="g2"
+                        />
+                        <div class="blog__item-img-info">
+                          <p>Reciepe</p>
+                          <p>
+                            <i class="fa-regular fa-clock"></i>
+                            10 Min Cook
+                          </p>
+                        </div>
+                      </a>
+
+                      <div class="blog__item-body py-4">
+                        <a
+                          href="#"
+                          class="blog__item-link blog__item-link-title"
+                        >
+                          The Best Cookie Recipes To Bake This Weekend
+                        </a>
+                        <p class="my-4">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Deserunt, quos. Tenetur, sunt?
+                        </p>
+
+                        <div
+                          class="blog__item-origin d-flex align-items-center justify-content-between"
+                        >
+                          <div
+                            class="blog__item-author d-flex align-items-center"
+                          >
+                            <img src="./assets/img/team1.jpg" alt="team 1" />
+                            <a href="#">Jannatul Ferdous</a>
+                          </div>
+                          <a href="#">
+                            Read more <i class="fa-solid fa-chevron-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="blog__col col-lg-6">
+                    <div class="blog__item">
+                      <a href="#" class="blog__item-link blog__item-link-image">
+                        <img
+                          class="img-fluid"
+                          src="./assets/img/g3.jpg"
+                          alt="g3"
+                        />
+                        <div class="blog__item-img-info">
+                          <p>Reciepe</p>
+                          <p>
+                            <i class="fa-regular fa-clock"></i>
+                            10 Min Cook
+                          </p>
+                        </div>
+                      </a>
+
+                      <div class="blog__item-body py-4">
+                        <a
+                          href="#"
+                          class="blog__item-link blog__item-link-title"
+                        >
+                          The Best Cookie Recipes To Bake This Weekend
+                        </a>
+                        <p class="my-4">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Deserunt, quos. Tenetur, sunt?
+                        </p>
+
+                        <div
+                          class="blog__item-origin d-flex align-items-center justify-content-between"
+                        >
+                          <div
+                            class="blog__item-author d-flex align-items-center"
+                          >
+                            <img src="./assets/img/team2.jpg" alt="team 2" />
+                            <a href="#">Rashed Kabir</a>
+                          </div>
+                          <a href="#">
+                            Read more <i class="fa-solid fa-chevron-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="blog__col col-lg-6">
+                    <div class="blog__item">
+                      <a href="#" class="blog__item-link blog__item-link-image">
+                        <img
+                          class="img-fluid"
+                          src="./assets/img/g4.jpg"
+                          alt="g4"
+                        />
+                        <div class="blog__item-img-info">
+                          <p>Reciepe</p>
+                          <p>
+                            <i class="fa-regular fa-clock"></i>
+                            10 Min Cook
+                          </p>
+                        </div>
+                      </a>
+
+                      <div class="blog__item-body py-4">
+                        <a
+                          href="#"
+                          class="blog__item-link blog__item-link-title"
+                        >
+                          The Best Cookie Recipes To Bake This Weekend
+                        </a>
+                        <p class="my-4">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Deserunt, quos. Tenetur, sunt?
+                        </p>
+
+                        <div
+                          class="blog__item-origin d-flex align-items-center justify-content-between"
+                        >
+                          <div
+                            class="blog__item-author d-flex align-items-center"
+                          >
+                            <img src="./assets/img/team3.jpg" alt="team 3" />
+                            <a href="#">Rashed Kabir</a>
+                          </div>
+                          <a href="#">
+                            Read more <i class="fa-solid fa-chevron-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="blog__col col-lg-6">
+                    <div class="blog__item">
+                      <a href="#" class="blog__item-link blog__item-link-image">
+                        <img
+                          class="img-fluid"
+                          src="./assets/img/g5.jpg"
+                          alt="g5"
+                        />
+                        <div class="blog__item-img-info">
+                          <p>Reciepe</p>
+                          <p>
+                            <i class="fa-regular fa-clock"></i>
+                            10 Min Cook
+                          </p>
+                        </div>
+                      </a>
+
+                      <div class="blog__item-body py-4">
+                        <a
+                          href="#"
+                          class="blog__item-link blog__item-link-title"
+                        >
+                          The Best Cookie Recipes To Bake This Weekend
+                        </a>
+                        <p class="my-4">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Deserunt, quos. Tenetur, sunt?
+                        </p>
+
+                        <div
+                          class="blog__item-origin d-flex align-items-center justify-content-between"
+                        >
+                          <div
+                            class="blog__item-author d-flex align-items-center"
+                          >
+                            <img src="./assets/img/team1.jpg" alt="team 1" />
+                            <a href="#">Rashed Kabir</a>
+                          </div>
+                          <a href="#">
+                            Read more <i class="fa-solid fa-chevron-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="blog__col col-lg-6">
+                    <div class="blog__item">
+                      <a href="#" class="blog__item-link blog__item-link-image">
+                        <img
+                          class="img-fluid"
+                          src="./assets/img/g6.jpg"
+                          alt="g6"
+                        />
+                        <div class="blog__item-img-info">
+                          <p>Reciepe</p>
+                          <p>
+                            <i class="fa-regular fa-clock"></i>
+                            10 Min Cook
+                          </p>
+                        </div>
+                      </a>
+
+                      <div class="blog__item-body py-4">
+                        <a
+                          href="#"
+                          class="blog__item-link blog__item-link-title"
+                        >
+                          The Best Cookie Recipes To Bake This Weekend
+                        </a>
+                        <p class="my-4">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Deserunt, quos. Tenetur, sunt?
+                        </p>
+
+                        <div
+                          class="blog__item-origin d-flex align-items-center justify-content-between"
+                        >
+                          <div
+                            class="blog__item-author d-flex align-items-center"
+                          >
+                            <img src="./assets/img/team2.jpg" alt="team 2" />
+                            <a href="#">Rashed Kabir</a>
+                          </div>
+                          <a href="#">
+                            Read more <i class="fa-solid fa-chevron-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blog__navigation mt-5">
+                  <ul class="d-flex align-items-center justify-content-center">
+                    <li class="active">
+                      <a href="#">1</a>
+                    </li>
+
+                    <li>
+                      <a href="#">2</a>
+                    </li>
+
+                    <li>
+                      <a href="#">3</a>
+                    </li>
+
+                    <li>
+                      <a href="#">
+                        Next <i class="fa-solid fa-chevron-right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="blog__col col-lg-4">
+                <div class="blog__item-right mb-5">
+                  <h2>Lasted recipes</h2>
+
+                  <div class="blog__item-right-body mt-5">
+                    <div class="row g-4">
+                      <div class="blog__col col-lg-6">
+                        <div class="blog__item-right-item">
+                          <img
+                            class="img-fluid"
+                            src="./assets/img/banner1.jpg"
+                            alt="banner1"
+                          />
+                          <a href="#">How to make capuccino</a>
+                        </div>
+                      </div>
+
+                      <div class="blog__col col-lg-6">
+                        <div class="blog__item-right-item">
+                          <img
+                            class="img-fluid"
+                            src="./assets/img/banner2.jpg"
+                            alt="banner2"
+                          />
+                          <a href="#">Starbucks blond coffee</a>
+                        </div>
+                      </div>
+
+                      <div class="blog__col col-lg-6">
+                        <div class="blog__item-right-item">
+                          <img
+                            class="img-fluid"
+                            src="./assets/img/banner3.jpg"
+                            alt="banner3"
+                          />
+                          <a href="#">The best cookie recipes to bake</a>
+                        </div>
+                      </div>
+
+                      <div class="blog__col col-lg-6">
+                        <div class="blog__item-right-item">
+                          <img
+                            class="img-fluid"
+                            src="./assets/img/banner4.jpg"
+                            alt="banner4"
+                          />
+                          <a href="#">How to make capuccino</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blog__item-right mb-5">
+                  <h2>Trending posts</h2>
+
+                  <ul class="blog__item-list blog__item-list-trending mt-4">
+                    <li class="mb-5">
+                      <div class="row gx-4 align-items-center">
+                        <div class="list__col col-lg-5">
+                          <img
+                            class="img-fluid"
+                            src="./assets/img/g3.jpg"
+                            alt="g3"
+                          />
+                        </div>
+                        <div class="list__col col-lg-7">
+                          <a href="#" class="text-black fw-bold"
+                            >12 Curry Recipes You'll Ever Need</a
+                          >
+                          <p class="mt-2">Feb 4, 2021</p>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="mb-5">
+                      <div class="row gx-4 align-items-center">
+                        <div class="list__col col-lg-5">
+                          <img
+                            class="img-fluid"
+                            src="./assets/img/g3.jpg"
+                            alt="g3"
+                          />
+                        </div>
+                        <div class="list__col col-lg-7">
+                          <a href="#" class="text-black fw-bold"
+                            >Sweet Strawberry Drink for Summer</a
+                          >
+                          <p class="mt-2">Feb 5, 2021</p>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="row gx-4 align-items-center">
+                        <div class="list__col col-lg-5">
+                          <img
+                            class="img-fluid"
+                            src="./assets/img/g6.jpg"
+                            alt="g6"
+                          />
+                        </div>
+                        <div class="list__col col-lg-7">
+                          <a href="#" class="text-black fw-bold"
+                            >How to make easiest pancakes ever</a
+                          >
+                          <p class="mt-2">Feb 6, 2021</p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="blog__item-right mb-5">
+                  <h2>Categories</h2>
+
+                  <ul class="blog__item-list mt-4">
+                    <li class="mb-4">
+                      <a href="#">Desserts</a>
+                    </li>
+                    <li class="mb-4">
+                      <a href="#">Cakes and Biscuits</a>
+                    </li>
+
+                    <li class="mb-4">
+                      <a href="#">Food recipes</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="blog__item-right">
+                  <h2 class="mb-4">Advertisement</h2>
+
+                  <a href="#">
+                    <img class="img-fluid" src="./assets/img/g1.jpg" alt="g1" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer pt-5">
+        <div class="container footer__content">
+          <div class="footer__top py-5">
+            <div class="row g-5">
+              <div class="footer__col col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="footer__item">
+                  <a href="#" class="text-white">Diner</a>
+
+                  <p class="my-4">
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                    ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor
+                    sit amet Semper at elit.
+                  </p>
+
+                  <ul class="footer__socials d-flex">
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer__col col-lg-2 col-md-6 col-sm-6 col-6">
+                <div class="footer__item">
+                  <h2 class="text-white">Usefull Links</h2>
+
+                  <ul class="footer__list mt-4">
+                    <li>
+                      <a href="#">About us</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Services</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Blog posts</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Careers</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Contact us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer__col col-lg-2 col-md-6 col-sm-6 col-6">
+                <div class="footer__item">
+                  <h2 class="text-white">More Info</h2>
+
+                  <ul class="footer__list mt-4">
+                    <li>
+                      <a href="#">History</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Vision & Values</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Awards</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Media</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Support</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer__col col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="footer__item">
+                  <h2 class="text-white">Subscribe to our Newsletter</h2>
+
+                  <p class="my-4">
+                    Enter your email and receive the latest news, updates and
+                    special offers from us.
+                  </p>
+
+                  <form action="" class="footer__form">
+                    <div class="footer__input-group mb-4">
+                      <input
+                        type="email"
+                        name=""
+                        id=""
+                        placeholder="Your Email Address"
+                      />
+                    </div>
+                    <button class="button button-primary button-subscribe">
+                      Subscribe Now
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom py-4">
+            <div class="row">
+              <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                <div class="footer__bottom-left">
+                  <p>
+                    © 2021 Diner. All rights reserved. Design by
+                    <span>W3Layouts</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="footer__bottom-right">
+                  <ul class="d-flex">
+                    <li><a href="#">Careers</a></li>
+                    <li class="mx-lg-5 mx-md-4 mx-3">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li><a href="#">Contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
