@@ -4,6 +4,10 @@
   .hide-on-mobile-tablet {
     display: none !important;
   }
+
+  .footer__socials {
+    justify-content: center;
+  }
 }
 
 /* For mobile only */
