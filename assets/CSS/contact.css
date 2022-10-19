@@ -1,3 +1,7 @@
+.app.app-contact {
+  background-color: var(--color-white);
+}
+
 /* Contact */
 
 .contact__col input,
@@ -8,10 +12,17 @@
   border: thin solid #dbdbdb;
   background-color: var(--color-grey);
   border-radius: 0.6rem;
+  transition: all 0.2s;
 }
 
 .contact__col input {
   height: 6rem;
+}
+
+.contact__col input:focus,
+.contact__col textarea:focus {
+  background-color: var(--color-white);
+  border-color: var(--color-primary);
 }
 
 .contact__col textarea {
