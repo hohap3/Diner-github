@@ -60,6 +60,7 @@
   margin: 0;
   font-size: 1.6rem;
   color: var(--color-black);
+  font-weight: 600;
 }
 
 .blog__item-author {
@@ -123,7 +124,7 @@
   font-size: 1.46rem;
 }
 
-.blog__item-list li a {
+.blog__item-list.blog__item-list-category li a {
   display: inline-block;
   color: var(--color-font);
   font-size: 1.68rem;
@@ -132,7 +133,7 @@
   padding: 0 0 0 2rem;
 }
 
-.blog__item-list li a::before {
+.blog__item-list.blog__item-list-category li a::before {
   content: "";
   display: block;
   position: absolute;
