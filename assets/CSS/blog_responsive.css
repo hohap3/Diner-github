@@ -1,0 +1,38 @@
+/* For all mobile and tablet */
+
+@media only screen and (max-width: 1023px) {
+  .hide-on-mobile-tablet {
+    display: none !important;
+  }
+}
+
+/* For mobile only */
+
+@media only screen and (max-width: 739px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  /* section */
+  .section-content-fw .section-heading p.title-heading,
+  .section-heading p.title-heading {
+    --font-height: 1.6rem;
+  }
+
+  .section-heading p.title-des {
+    --font-height: 1.6rem;
+  }
+
+  .section-content-fw .section-heading h2,
+  .section-heading h2 {
+    --font-height: 2.8rem;
+    font-weight: 600;
+  }
+}
+
+/* For tablet only */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none !important;
+  }
+}
