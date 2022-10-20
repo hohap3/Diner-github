@@ -15,6 +15,11 @@
   --header-contact-height: calc(
     var(--header-height) - var(--header-navbar-height)
   );
+  --header-email-height: 43.4rem;
+  --header-email-top: 6.8rem;
+  --header-email-body: calc(
+    var(--header-email-height) - var(--header-email-top) - 3.2rem
+  );
 }
 
 /* Setting all */
@@ -104,4 +109,23 @@ html {
   color: var(--color-primary);
   font-family: "Pacifico", cursive;
   text-transform: capitalize;
+}
+
+.container-email {
+  width: 65rem;
+  margin: 0 auto;
+}
+
+.section-content-email {
+  padding: 4.8rem 3.2rem;
+}
+
+.section-content-email .section-heading-email {
+  text-align: center;
+}
+
+.section-heading-email h2 {
+  text-transform: capitalize;
+  font-size: 3.2rem;
+  font-weight: 600;
 }

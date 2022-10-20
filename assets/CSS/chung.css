@@ -6,6 +6,8 @@
   transition: all 0.5s;
   border-radius: 6px;
   font-weight: 600;
+  display: grid;
+  place-items: center;
 }
 
 .button.button-primary {
@@ -24,8 +26,27 @@
   height: 56px;
 }
 
+.button.button-contact {
+  width: 100px;
+  height: 48px;
+}
+
+.button.button-more {
+  width: 144px;
+  height: 54px;
+}
+
+.button.button-contact:hover,
 .button.button-primary:hover {
   background-color: #ff8533;
+}
+
+.button.button-transparent {
+  width: 144px;
+  height: 46px;
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
 }
 
 /* Footer */
