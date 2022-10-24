@@ -5,6 +5,31 @@
     display: none !important;
   }
 
+  .header__navbar .header__nav {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0.6rem;
+    align-items: center;
+    position: relative;
+  }
+
+  .header__navbar .header__nav::before {
+    content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: -2.3rem;
+    border-style: solid;
+    border-width: 1.2rem 2rem;
+    border-color: transparent transparent rgba(0, 0, 0, 0.4) transparent;
+  }
+
+  .header__navbar .header__navbar-collapse {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 20rem;
+  }
+
   .footer__socials {
     justify-content: center;
   }

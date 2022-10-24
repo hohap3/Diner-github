@@ -49,41 +49,62 @@
       <!-- Header -->
       <header class="header">
         <div class="container header__content">
-          <div
-            class="header__navbar d-flex align-items-center justify-content-between"
-          >
-            <div class="header__logo">
-              <a href="#" class="text-white">Diner</a>
-            </div>
-            <div class="header__navbar-bar d-flex align-items-center">
-              <div class="header__navbar-search hide-on-mobile">
-                <form action="" class="d-flex align-items-center">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    placeholder="Search here..."
-                  />
+          <nav class="header__navbar navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Diner</a>
+              <div class="header__navbar-more d-flex align-items-center">
+                <div class="header__navbar-search hide-on-mobile">
+                  <form action="" class="d-flex align-items-center">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Search here..."
+                    />
 
-                  <button type="submit">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </button>
-                </form>
+                    <button type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="header__mode-control text-white">
+                  <i class="fa-regular fa-moon"></i>
+                </div>
               </div>
-              <div class="header__mode-control text-white">
-                <i class="fa-regular fa-moon"></i>
-              </div>
-              <div class="header__navbar-nav text-white">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
                 <i class="fa-solid fa-bars"></i>
+              </button>
+
+              <div
+                class="header__navbar-collapse collapse navbar-collapse"
+                id="navbarNavAltMarkup"
+              >
+                <div class="header__nav navbar-nav">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link active" href="./blog.html">Blog</a>
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                  <a class="nav-link" href="./email.html">Email</a>
+                </div>
               </div>
             </div>
-          </div>
+          </nav>
+
           <div
             class="header__contact d-flex justify-content-center align-items-center"
           >
             <p>
               <a href="#">Home</a>
-              <i class="fa-solid fa-chevron-right"></i> Contact Us
+              <i class="fa-solid fa-chevron-right"></i> Blog
             </p>
           </div>
         </div>
