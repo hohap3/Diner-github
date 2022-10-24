@@ -14,6 +14,7 @@
 
 .header__navbar {
   height: var(--header-navbar-height);
+  position: relative;
 }
 
 .header__contact {
@@ -40,7 +41,7 @@
   font-size: 1.4rem;
 }
 
-.header__logo a {
+.header__navbar .navbar-brand {
   font-size: 3.6rem;
   font-weight: 700;
   text-transform: capitalize;
@@ -50,7 +51,7 @@
   gap: 2rem;
 }
 
-.header__navbar-bar .header__navbar-search {
+.header__navbar-search {
   height: 4.6rem;
   width: 24rem;
   background-color: var(--color-white);
@@ -89,4 +90,36 @@
 
 .header__navbar-nav i {
   cursor: pointer;
+}
+
+.header__navbar .header__navbar-collapse {
+  justify-content: flex-end;
+  gap: 1rem;
+  flex-basis: 0;
+}
+
+.header__nav .nav-link {
+  font-size: 1.6rem;
+  color: var(--color-white);
+}
+
+.header__nav .nav-link:hover {
+  color: var(--color-primary);
+}
+
+.header__nav .nav-link.active {
+  color: var(--color-primary);
+}
+
+.header__navbar .navbar-toggler {
+  color: var(--color-white);
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.header__navbar-more {
+  flex: 3;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin-right: 1rem;
 }
