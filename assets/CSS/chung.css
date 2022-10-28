@@ -6,8 +6,10 @@
   transition: all 0.5s;
   border-radius: 6px;
   font-weight: 600;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .button.button-primary {
@@ -47,6 +49,14 @@
   border-color: #fff;
   background-color: transparent;
   color: #fff;
+}
+
+.button.button-transparent.button__banner {
+  width: 190px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 /* Footer */
