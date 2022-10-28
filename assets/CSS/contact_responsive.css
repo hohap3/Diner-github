@@ -9,25 +9,8 @@
 /* For mobile only */
 
 @media only screen and (max-width: 739px) {
-  :root {
-    --header-mobile-height: 19.8rem;
-    --header-navbar-height: 8rem;
-    --header-contact-mobile: calc(
-      var(--header-mobile-height) - var(--header-navbar-height)
-    );
-  }
-
   .hide-on-mobile {
     display: none !important;
-  }
-
-  /* Header */
-  .header {
-    max-height: var(--header-mobile-height) !important;
-  }
-
-  .header__contact {
-    height: var(--header-contact-mobile);
   }
 
   /* button */
