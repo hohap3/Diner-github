@@ -59,6 +59,26 @@
   gap: 1rem;
 }
 
+/* Back to top button */
+.backToTopBtn {
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+  z-index: 99;
+  width: 5rem;
+  height: 5rem;
+  font-size: 1.8rem;
+  outline: none;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 3.5rem;
+  padding: 0;
+  cursor: pointer;
+  border: thin solid var(--color-primary);
+  transition: 0.3 ease-in;
+  display: none;
+}
+
 /* Footer */
 .footer {
   background-color: var(--color-black);
