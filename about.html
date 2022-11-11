@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Reset CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <!-- Font Icon -->
+    <link
+      href="//fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+    />
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link file CSS -->
+
+    <link rel="stylesheet" href="./assets/CSS/header.css" />
+    <link rel="stylesheet" href="./assets/CSS/chung.css" />
+    <link rel="stylesheet" href="./assets/CSS/base.css" />
+    <link rel="stylesheet" href="./assets/CSS/about.css" />
+    <link rel="stylesheet" href="./assets/CSS/about_responsive.css" />
+    <link rel="stylesheet" href="./assets/CSS/responsive_chung.css" />
+
+    <title>Diner About</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="container header__content">
+          <nav class="header__navbar navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Diner</a>
+              <div class="header__navbar-more d-flex align-items-center">
+                <div class="header__navbar-search hide-on-mobile">
+                  <form action="" class="d-flex align-items-center">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Search here..."
+                    />
+
+                    <button type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="header__mode-control text-white">
+                  <i class="fa-regular fa-moon"></i>
+                </div>
+              </div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </button>
+
+              <div
+                class="header__navbar-collapse collapse navbar-collapse"
+                id="navbarNavAltMarkup"
+              >
+                <div class="header__nav navbar-nav">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Home</a
+                  >
+                  <a class="nav-link active" href="./about.html">About</a>
+                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="./blog.html">Blog</a>
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                  <a class="nav-link" href="./email.html">Email</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <div
+            class="header__contact d-flex justify-content-center align-items-center"
+          >
+            <p>
+              <a href="#">Home</a>
+              <i class="fa-solid fa-chevron-right"></i> About
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Story -->
+      <section class="story bg-white">
+        <div class="container section-content-fw story__content">
+          <header class="story__header section-heading">
+            <p class="title-heading">The Story</p>
+            <h2>About Us</h2>
+          </header>
+          <div class="story__body">
+            <div class="row g-5">
+              <div class="story__col col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="story__item">
+                  <img
+                    class="img-fluid"
+                    src="./assets/img/banner1.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="story__col col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="story__item">
+                  <h2>We found our creative space that is open for you.</h2>
+                  <p class="story__item-text">
+                    Excepteur sint occaecat non proident, sunt in culpa quis.
+                    Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum
+                    fringilla, gravida felis vitae. Phasellus lacinia id, sunt
+                    in culpa quis. Phasellus lacinia
+                  </p>
+
+                  <p class="story__item-text">
+                    Excepteur sint occaecat non proident, sunt in culpa quis.
+                    Phasellus lacinia id erat eu ullamcorper.
+                  </p>
+
+                  <button class="button button-primary button-submit">
+                    Read more
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="story__footer">
+            <div class="row g-5">
+              <div
+                class="story__footer-col col-lg-3 col-md-12 col-12 col-sm-12 align-items-center"
+              >
+                <div class="story__footer-col-item">
+                  <h2>What we Do?.</h2>
+                </div>
+              </div>
+              <div
+                class="story__footer-col col-lg-3 col-md-12 col-12 col-sm-12"
+              >
+                <div class="story__footer-col-item">
+                  <a href="#">Strategy and Timing</a>
+                  <p>
+                    Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum
+                    fringilla.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="story__footer-col col-lg-3 col-md-12 col-12 col-sm-12"
+              >
+                <div class="story__footer-col-item">
+                  <a href="#">Leaders Of Tomorrow </a>
+                  <p>
+                    Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum
+                    fringilla.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="story__footer-col col-lg-3 col-md-12 col-12 col-sm-12"
+              >
+                <div class="story__footer-col-item">
+                  <a href="#">Brand - Centered Buying </a>
+                  <p>
+                    Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum
+                    fringilla.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section-content-fw skills">
+        <div class="container skills__content">
+          <div class="row g-5">
+            <div class="skills__col col-lg-6 col-md-12 col-12 col-sm-12">
+              <div class="skills__item">
+                <header class="section-heading skills__header">
+                  <p class="title-heading">Skills</p>
+                  <h2>Strategy is at the Heart of What We Do</h2>
+                </header>
+                <p class="skills__des">
+                  Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                  ultrices in ligula.
+                </p>
+                <div class="skills__body">
+                  <div class="skills__progress mb-4">
+                    <h6>Digital Strategy</h6>
+                    <div class="progress">
+                      <div class="progress__bar" style="width: 80%"></div>
+                    </div>
+                  </div>
+
+                  <div class="skills__progress mb-4">
+                    <h6>Financial Services</h6>
+                    <div class="progress">
+                      <div class="progress__bar" style="width: 95%"></div>
+                    </div>
+                  </div>
+
+                  <div class="skills__progress mb-4">
+                    <h6>Counsalting</h6>
+                    <div class="progress">
+                      <div class="progress__bar" style="width: 55%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skills__col col-lg-6 col-md-12 col-12 col-sm-12">
+              <div class="skills__item">
+                <div class="row g-5">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <img
+                      class="img-fluid rounded"
+                      src="./assets/img/g1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <img
+                      class="img-fluid rounded"
+                      src="./assets/img/g2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team -->
+      <section class="section-content team bg-white">
+        <div class="container team__content">
+          <header class="section-heading team__header">
+            <p class="title-heading">Our team</p>
+            <h2>Meet Our Chefs</h2>
+          </header>
+
+          <div class="team__body mt-5">
+            <div class="row g-5">
+              <div class="team__col col-lg-4 col-md-6 col-6 col-sm-6">
+                <div class="team__item text-center">
+                  <div class="team__images">
+                    <img
+                      class="img-fluid rounded"
+                      src="./assets/img/chef2.jpg"
+                      alt=""
+                    />
+                    <div class="team__images-contact text-center">
+                      <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+
+                      <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+
+                      <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="team__info mt-5">
+                    <a href="#">Daniel jacobs</a>
+                    <p>Chef</p>
+                  </div>
+                </div>
+              </div>
+              <div class="team__col col-lg-4 col-md-6 col-6 col-sm-6">
+                <div class="team__item text-center">
+                  <div class="team__images">
+                    <img
+                      class="img-fluid rounded"
+                      src="./assets/img/chef1.jpg"
+                      alt=""
+                    />
+                    <div class="team__images-contact text-center">
+                      <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+
+                      <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+
+                      <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="team__info mt-5">
+                    <a href="#">Claire Daniel</a>
+                    <p>Chef</p>
+                  </div>
+                </div>
+              </div>
+              <div class="team__col col-lg-4 col-md-6 col-6 col-sm-6">
+                <div class="team__item text-center">
+                  <div class="team__images">
+                    <img
+                      class="img-fluid rounded"
+                      src="./assets/img/chef2.jpg"
+                      alt=""
+                    />
+                    <div class="team__images-contact text-center">
+                      <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+
+                      <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+
+                      <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="team__info mt-5">
+                    <a href="#">Daniel Hunt</a>
+                    <p>Chef</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+
+      <footer class="footer pt-5">
+        <div class="container footer__content">
+          <div class="footer__top py-5">
+            <div class="row g-5">
+              <div class="footer__col col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="footer__item">
+                  <a href="#" class="text-white">Diner</a>
+
+                  <p class="my-4">
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                    ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor
+                    sit amet Semper at elit.
+                  </p>
+
+                  <ul class="footer__socials d-flex">
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer__col col-lg-2 col-md-6 col-sm-6 col-6">
+                <div class="footer__item">
+                  <h2 class="text-white">Usefull Links</h2>
+
+                  <ul class="footer__list mt-4">
+                    <li>
+                      <a href="#">About us</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Services</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Blog posts</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Careers</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Contact us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer__col col-lg-2 col-md-6 col-sm-6 col-6">
+                <div class="footer__item">
+                  <h2 class="text-white">More Info</h2>
+
+                  <ul class="footer__list mt-4">
+                    <li>
+                      <a href="#">History</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Vision & Values</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Awards</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Media</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Support</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer__col col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="footer__item">
+                  <h2 class="text-white">Subscribe to our Newsletter</h2>
+
+                  <p class="my-4">
+                    Enter your email and receive the latest news, updates and
+                    special offers from us.
+                  </p>
+
+                  <form action="" class="footer__form">
+                    <div class="footer__input-group mb-4">
+                      <input
+                        type="email"
+                        name=""
+                        id=""
+                        placeholder="Your Email Address"
+                      />
+                    </div>
+                    <button class="button button-primary button-subscribe">
+                      Subscribe Now
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom py-4">
+            <div class="row">
+              <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                <div class="footer__bottom-left">
+                  <p>
+                    © 2021 Diner. All rights reserved. Design by
+                    <span>W3Layouts</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="footer__bottom-right">
+                  <ul class="d-flex">
+                    <li><a href="#">Careers</a></li>
+                    <li class="mx-lg-5 mx-md-4 mx-3">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li><a href="#">Contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

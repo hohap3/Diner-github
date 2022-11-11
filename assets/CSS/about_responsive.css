@@ -1,0 +1,42 @@
+/* For all mobile and tablet */
+
+@media only screen and (max-width: 1023px) {
+  .hide-on-mobile-tablet {
+    display: none !important;
+  }
+
+  .story__footer-col-item > h2 {
+    display: block;
+  }
+}
+
+/* For mobile only */
+
+@media only screen and (max-width: 739px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .story__item > h2 {
+    --font-height: 2.6rem;
+  }
+
+  .story__footer-col-item > h2 {
+    --font-height: 2.6rem;
+  }
+
+  .story__footer-col-item > p {
+    --font-height: 1.6rem;
+  }
+
+  .button.button-submit {
+    width: 16rem;
+  }
+}
+
+/* For tablet only */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none !important;
+  }
+}
