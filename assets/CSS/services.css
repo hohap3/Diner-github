@@ -1,0 +1,146 @@
+/* Offer */
+
+.offer {
+  padding: 10rem 0;
+  background-color: var(--color-grey);
+}
+
+.offer__item p:not(p.title-heading) {
+  --font-height: 1.8rem;
+  font-size: var(--font-height);
+  line-height: calc(var(--font-height) + 1rem);
+  color: var(--color-font);
+}
+
+/* Feature */
+.feature {
+  background: var(--color-grey);
+}
+
+.feature__item-header {
+  gap: 3rem;
+}
+
+.feature__item {
+  padding: 4rem;
+  border: thin solid #eee;
+  border-radius: 0.6rem;
+  box-shadow: 0 2.5rem 9.8rem rgba(0, 0, 0, 0.03);
+}
+
+.feature__item-header .feature__item-header-icon {
+  --square: 7rem;
+  width: var(--square);
+  height: var(--square);
+  background-color: rgba(130, 115, 252, 0.05);
+  border-radius: 0.8rem;
+  display: grid;
+  place-items: center;
+  font-size: 2.4rem;
+  color: var(--color-primary);
+  transition: all 0.3s ease-in-out;
+}
+
+.feature__item-header a {
+  display: inline-block;
+  font-size: 2.2rem;
+  color: var(--color-black);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.feature__item-header a:hover {
+  color: var(--color-primary);
+}
+
+.feature__item:hover .feature__item-header-icon {
+  background-color: var(--color-primary);
+}
+
+.feature__item-header .feature__item-header-icon i {
+  transition: all 0.3s ease-in-out;
+}
+
+.feature__item:hover:hover .feature__item-header-icon i {
+  color: var(--color-white);
+}
+
+.feature__item-header .feature__item-text p {
+  --font-height: 1.68rem;
+  font-size: var(--font-height);
+  line-height: calc(var(--font-height) + 1rem);
+  color: var(--color-font);
+}
+
+.feature__item > p {
+  --font-height: 1.68rem;
+  font-size: var(--font-height);
+  line-height: calc(var(--font-height) + 1rem);
+  color: Var(--color-font);
+}
+
+/* Middle */
+.middle {
+  background-image: url("../img/banner2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.middle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(16, 15, 19, 0.66);
+}
+
+.middle__content-info {
+  padding: 5.6rem 0;
+  width: 70rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.middle__content-info > h2 {
+  --font-height: 4.6rem;
+  font-size: var(--font-height);
+  line-height: calc(var(--font-height) + 1rem);
+  font-weight: 500;
+}
+
+.middle__buttons {
+  gap: 2rem;
+}
+
+.middle__buttons .button-transparent:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+/* Plans */
+.plans__item-top {
+  border-bottom: thin dotted var(--color-black);
+}
+
+.plans__item-top .plans__title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.plans__item-top .plans__price {
+  font-size: 2.08rem;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.plans__des {
+  font-size: 1.6rem;
+  color: var(--color-font);
+}

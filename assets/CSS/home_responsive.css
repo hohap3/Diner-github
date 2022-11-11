@@ -52,6 +52,26 @@
   .testimonials__item {
     width: 100%;
   }
+
+  .middle__top {
+    width: 100%;
+  }
+
+  .middle__top h2 {
+    --font-height: 3.4rem;
+  }
+
+  .button.button-transparent.button__banner {
+    width: 15rem;
+  }
+
+  .button {
+    font-size: 1.48rem;
+  }
+
+  .button.button-submit.button-primary {
+    width: 15rem;
+  }
 }
 
 /* For tablet only */
