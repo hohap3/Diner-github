@@ -1,0 +1,8 @@
+CHỦ ĐỀ: Dinner
+
+- La Ngô Hoàn Phúc: 
+	+ index.html, contact.html, blog.html , email.html
+	+ responsive, animation
+- La Thiên Lộc: 
+	+ about.html, services.html
+	+ responsive, animation
